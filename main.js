@@ -92,4 +92,4 @@ do {
     quitMenu = true;
     alert("Elegiste salir del menú");
   }
-} while (quitMenu !== true);
+} while (!quitMenu);
